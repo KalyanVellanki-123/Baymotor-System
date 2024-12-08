@@ -1,0 +1,7 @@
+models\Customer.class
+models\Manager.class
+models\User.class
+com\mycompany\baymotorssystem\BayMotorsSystem.class
+models\Mechanic.class
+ui\Main.class
+models\Vehicle.class
