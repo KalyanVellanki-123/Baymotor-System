@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: MenuTest
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.41 s <<< FAILURE! - in MenuTest
+MenuTest.T7_getRegisteredCustomers  Time elapsed: 0.021 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: There should be one registered customer ==> expected: <1> but was: <0>
+	at MenuTest.T7_getRegisteredCustomers(MenuTest.java:142)
+
+MenuTest.T8_getUnregisteredCustomers  Time elapsed: 0.008 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: There should be one unregistered customer ==> expected: <1> but was: <2>
+	at MenuTest.T8_getUnregisteredCustomers(MenuTest.java:159)
+
+MenuTest.T9_addSupplier_ValidSupplier  Time elapsed: 0.007 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: There should be one supplier ==> expected: <1> but was: <2>
+	at MenuTest.T9_addSupplier_ValidSupplier(MenuTest.java:126)
+

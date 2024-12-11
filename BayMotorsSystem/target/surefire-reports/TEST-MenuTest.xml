@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="MenuTest" time="0.41" tests="9" errors="0" skipped="0" failures="3">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\user\Desktop\projectss\NetBeansProjects\BayMotorsSystem_1\target\test-classes;C:\Users\user\Desktop\projectss\NetBeansProjects\BayMotorsSystem_1\target\classes;C:\Users\user\.m2\repository\org\junit\jupiter\junit-jupiter\5.6.0\junit-jupiter-5.6.0.jar;C:\Users\user\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.0\junit-jupiter-api-5.6.0.jar;C:\Users\user\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\user\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\user\.m2\repository\org\junit\platform\junit-platform-commons\1.6.0\junit-platform-commons-1.6.0.jar;C:\Users\user\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.0\junit-jupiter-params-5.6.0.jar;C:\Users\user\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.0\junit-jupiter-engine-5.6.0.jar;C:\Users\user\.m2\repository\org\junit\platform\junit-platform-engine\1.6.0\junit-platform-engine-1.6.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
+    <property name="sun.java.command" value="C:\Users\user\AppData\Local\Temp\surefire8293569201197680340\surefirebooter14760159058809931584.jar C:\Users\user\AppData\Local\Temp\surefire8293569201197680340 2024-12-11T16-45-02_506-jvmRun1 surefire18263789960444652401tmp surefire_018098609868136287747tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="test" value="MenuTest"/>
+    <property name="surefire.test.class.path" value="C:\Users\user\Desktop\projectss\NetBeansProjects\BayMotorsSystem_1\target\test-classes;C:\Users\user\Desktop\projectss\NetBeansProjects\BayMotorsSystem_1\target\classes;C:\Users\user\.m2\repository\org\junit\jupiter\junit-jupiter\5.6.0\junit-jupiter-5.6.0.jar;C:\Users\user\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.0\junit-jupiter-api-5.6.0.jar;C:\Users\user\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\user\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\user\.m2\repository\org\junit\platform\junit-platform-commons\1.6.0\junit-platform-commons-1.6.0.jar;C:\Users\user\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.0\junit-jupiter-params-5.6.0.jar;C:\Users\user\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.0\junit-jupiter-engine-5.6.0.jar;C:\Users\user\.m2\repository\org\junit\platform\junit-platform-engine\1.6.0\junit-platform-engine-1.6.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\user"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-07-16"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\user\Desktop\projectss\NetBeansProjects\BayMotorsSystem_1"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\user\AppData\Local\Temp\surefire8293569201197680340\surefirebooter14760159058809931584.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.12+8-LTS-286"/>
+    <property name="user.name" value="user"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\NetBeans-17\netbeans\java\maven-nblib\netbeans-eventspy.jar"/>
+    <property name="localRepository" value="C:\Users\user\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\user\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.12"/>
+    <property name="user.dir" value="C:\Users\user\Desktop\projectss\NetBeansProjects\BayMotorsSystem_1"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Java\jdk-19\bin;C:\Users\user\apache-maven-3.9.6\bin;C:\Users\user\Downloads\apache-ant-1.10.14\bin;C:\Users\user\Downloads\javacc-6.0.1\bin;C:\Program Files\PuTTY\;C:\Program Files\Java\jdk-17;C:\Program Files\Java\jdk-19;C:\Program Files\nodejs\;C:\msys64\mingw64\bin;C:\Program Files\Java\jdk-19\db-derby-10.16.1.1-bin\db-derby-10.16.1.1-bin\lib;C:\Program Files\Java\jdk-19\db-derby-10.15.2.0-bin\lib;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\user\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\user\AppData\Local\Programs\Python\Python311\;C:\Users\user\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\user\AppData\Local\Programs\Python\Python312\;C:\msys64\home\user\.splashkit;C:\msys64\home\user\.splashkit\lib\win64;C:\msys64\home\user\.splashkit\lib;C:\Windows\System32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Users\user\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\user\.dotnet\tools;C:\Users\user\apache-maven-3.9.6\bin;C:\Users\user\Downloads\apache-ant-1.10.14\bin;C:\Users\user\Downloads\javacc-6.0.1\bin;C:\Users\user\AppData\Roaming\npm;C:\msys64\mingw64\bin;C:\Program Files\Java\jdk-19\db-derby-10.16.1.1-bin\db-derby-10.16.1.1-bin\lib;C:\Program Files\Java\jdk-19\db-derby-10.15.2.0-bin\lib;C:\Program Files\Java\jdk-17\bin;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.12+8-LTS-286"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="T5_notifyRegisteredCustomers" classname="MenuTest" time="0.177">
+    <system-out><![CDATA[Customer added successfully: Customer{name='John', contactInfo='john@example.com', isRegistered=false, vehicles=[Vehicle{registrationNumber='123', make='Toyota', model='Corolla'}]}
+Customer added successfully: Customer{name='Jane', contactInfo='jane@example.com', isRegistered=false, vehicles=[Vehicle{registrationNumber='456', make='Honda', model='Civic'}]}
+]]></system-out>
+  </testcase>
+  <testcase name="T1_addCustomer_ValidDetails" classname="MenuTest" time="0.01">
+    <system-out><![CDATA[Customer added successfully: Customer{name='John Doe', contactInfo='123-456-7890', isRegistered=false, vehicles=[Vehicle{registrationNumber='ABC123', make='Toyota', model='Corolla'}]}
+]]></system-out>
+  </testcase>
+  <testcase name="T7_getRegisteredCustomers" classname="MenuTest" time="0.021">
+    <failure type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: There should be one registered customer ==> expected: <1> but was: <0>
+	at MenuTest.T7_getRegisteredCustomers(MenuTest.java:142)
+]]></failure>
+    <system-out><![CDATA[Customer added successfully: Customer{name='John', contactInfo='john@example.com', isRegistered=false, vehicles=[Vehicle{registrationNumber='123', make='Toyota', model='Corolla'}]}
+Customer added successfully: Customer{name='Jane', contactInfo='jane@example.com', isRegistered=false, vehicles=[Vehicle{registrationNumber='456', make='Honda', model='Civic'}]}
+]]></system-out>
+  </testcase>
+  <testcase name="T2_addCustomer_MissingFields" classname="MenuTest" time="0.004">
+    <system-out><![CDATA[Invalid customer details. Customer not added.
+]]></system-out>
+  </testcase>
+  <testcase name="T4_addVehicleToCustomer_InvalidCustomer" classname="MenuTest" time="0.036">
+    <system-out><![CDATA[Customer not found: Jane Smith
+]]></system-out>
+  </testcase>
+  <testcase name="T3_addVehicleToCustomer_ValidCustomer" classname="MenuTest" time="0.004">
+    <system-out><![CDATA[Customer added successfully: Customer{name='John Doe', contactInfo='123-456-7890', isRegistered=false, vehicles=[Vehicle{registrationNumber='ABC123', make='Toyota', model='Corolla'}]}
+Vehicle added successfully to customer: John Doe
+]]></system-out>
+  </testcase>
+  <testcase name="T8_getUnregisteredCustomers" classname="MenuTest" time="0.008">
+    <failure type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: There should be one unregistered customer ==> expected: <1> but was: <2>
+	at MenuTest.T8_getUnregisteredCustomers(MenuTest.java:159)
+]]></failure>
+    <system-out><![CDATA[Customer added successfully: Customer{name='John', contactInfo='john@example.com', isRegistered=false, vehicles=[Vehicle{registrationNumber='123', make='Toyota', model='Corolla'}]}
+Customer added successfully: Customer{name='Jane', contactInfo='jane@example.com', isRegistered=false, vehicles=[Vehicle{registrationNumber='456', make='Honda', model='Civic'}]}
+]]></system-out>
+  </testcase>
+  <testcase name="T9_addSupplier_ValidSupplier" classname="MenuTest" time="0.007">
+    <failure type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: There should be one supplier ==> expected: <1> but was: <2>
+	at MenuTest.T9_addSupplier_ValidSupplier(MenuTest.java:126)
+]]></failure>
+    <system-out><![CDATA[Manufacturer and supplier added successfully.
+Supplier added successfully to manufacturer: Toyota
+]]></system-out>
+  </testcase>
+  <testcase name="T6_notifyUnregisteredCustomers" classname="MenuTest" time="0.003">
+    <system-out><![CDATA[Customer added successfully: Customer{name='John', contactInfo='john@example.com', isRegistered=false, vehicles=[Vehicle{registrationNumber='123', make='Toyota', model='Corolla'}]}
+Customer added successfully: Customer{name='Jane', contactInfo='jane@example.com', isRegistered=false, vehicles=[Vehicle{registrationNumber='456', make='Honda', model='Civic'}]}
+Notification to John (john@example.com): Please register with us!
+Notification to Jane (jane@example.com): Please register with us!
+]]></system-out>
+  </testcase>
+</testsuite>
